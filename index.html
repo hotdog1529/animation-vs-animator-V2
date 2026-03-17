@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Animator OS V2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="desktop">
+
+  <!-- Icons -->
+  <div class="icon" ondblclick="startGame()">▶ Start Story</div>
+
+  <!-- Taskbar -->
+  <div id="taskbar">Animator OS V2</div>
+
+  <!-- Stickman Canvas -->
+  <canvas id="stickCanvas"></canvas>
+
+  <!-- Cursor -->
+  <div id="cursor"></div>
+
+  <!-- Cutscene -->
+  <div id="cutscene" class="hidden"></div>
+
+  <!-- BSOD -->
+  <div id="bsod" class="hidden">
+    <h1>:(</h1>
+    <p>Your PC ran into a problem</p>
+    <p>Stickman.exe failed</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
